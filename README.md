@@ -6,4 +6,8 @@
 |-----------------------|-----------------------------|
 | **NOMBRE**            | dariana ruiz montes         |
 | **github**            | https://github.com/darianarz|
-| **DIRECCION**         | calle
+| **DIRECCION**         | calle 97B 7 99 malvinas     |
+| **CELULAR**           | 3024486683                  |
+| **CORREO PERSONAL**   | darianaruizmontes@gmail.com |
+| **CORREO SENA**       | dariana.ruiz@misena.edu.co  |
+
