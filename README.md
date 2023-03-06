@@ -33,7 +33,10 @@ height="200">
 |**Superior**| Sena |
 
 #referencia familiares 
-|**familiares**| frank aguirre ospino |
+|**familiares**| virgeina petrona  |
 |---------------|---------------------|
-|**famliares**| jaider palmera |
-|**familiares**| maria jose aguirre | 
+|**famliares**| juan buzon |
+|**familiares**| arleth cantillo |
+
+# perfil de hithub
+|**URL**| https://github.com/buzons | 
