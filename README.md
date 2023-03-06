@@ -10,6 +10,7 @@ Mi hoja de vida,
 | Celular | 3243316646 |    
 | Correo Electronico | martinezmattosabeljesus5@gmail.com |
 | Usuario de Github | AbelMattos |
+| Direccion | Cra 2g #51c36 |
 
 ## Estudio
 
