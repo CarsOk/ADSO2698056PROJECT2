@@ -26,3 +26,14 @@ height="200">
 |**habilidades**| __Wordpress__ |
 |**leguaje**| __Ingles B1__|
 |**conocimiento**| __Contenido de sitios web__|
+
+# titulos
+|**Bachiderato**| Tecnologo En Contaduria , Tecnologo en mercadeo |
+|----------------|-----------------------------------------------|
+|**Superior**| Sena |
+
+#referencia familiares 
+|**familiares**| frank aguirre ospino |
+|---------------|---------------------|
+|**famliares**| jaider palmera |
+|**familiares**| maria jose aguirre | 
