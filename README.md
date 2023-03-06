@@ -11,3 +11,6 @@
 | **CORREO PERSONAL**   | darianaruizmontes@gmail.com |
 | **CORREO SENA**       | dariana.ruiz@misena.edu.co  |
 
+| **DATOS DE ESTUDIOA** | **DATOS**                       |
+| **ESCUELA**           | LA MILAGROSA FE Y ALEGRIA       |
+ **TECNICO SENA**       | CENTRO INDUSTRIAL Y DE AVIACION |
