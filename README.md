@@ -16,27 +16,3 @@ height="200">
 |**e-mail**| buzonsamuel18@gmail.com |
 |**Tarjeta de identidad**| 1047039742 |
 |**Celular**| 3043497896 |
-
-# Estudios 
-|**Primaria**| I.E.T.E.C.I |
-|---------|-------------|
-|**Secundaria**| I.E.T.E.C.I |
-|**Superior**| Sena |
-|**habilidades**| __Ediciones de textos__ |
-|**habilidades**| __Wordpress__ |
-|**leguaje**| __Ingles B1__|
-|**conocimiento**| __Contenido de sitios web__|
-
-# titulos
-|**Bachiderato**| Tecnologo En Contaduria , Tecnologo en mercadeo |
-|----------------|-----------------------------------------------|
-|**Superior**| Sena |
-
-#referencia familiares 
-|**familiares**| frank aguirre ospino |
-|---------------|---------------------|
-|**famliares**| jaider palmera |
-|**familiares**| maria jose aguirre | 
-
-# perfil de hithub
-|**URL**| https://github.com/buzons |
