@@ -1,3 +1,6 @@
+# Hojas de vida aprendices
+- [Dariana Ruiz](hojas_de_vida/dariana_ruiz.md)
+
 # ADSO2698056PROJECT2
 # Hoja de vida
 MI HOJA DE vida
