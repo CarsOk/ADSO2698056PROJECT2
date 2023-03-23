@@ -1,6 +1,5 @@
 # ADSO2698056PROJECT2
 # Hoja de vida
-MI HOJA DE vida
 <img src="https://user-images.githubusercontent.com/126481071/221581124-26d776d1-2588-418f-b457-454d6c5674a6.jpeg" width="200" heigth="250" />    
 
 **LUIS CORTEZANO**
