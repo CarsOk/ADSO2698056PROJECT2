@@ -15,5 +15,6 @@ MI HOJA DE VIDA,
 
 ## Estudios
 |Datos|Descripcion|
+|---|---|
 |Colegio|I.E.D de carrizal|
-|Sena|ADSO2|
+|Sena|Certificado en sistemas|
