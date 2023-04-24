@@ -1,2 +1,0 @@
-## EVIDENCIA DE LA REUNION CON EL EMPRESARIO
-blob:https://web.whatsapp.com/cdf3c916-2657-4404-ac76-86b06b31b6c5
