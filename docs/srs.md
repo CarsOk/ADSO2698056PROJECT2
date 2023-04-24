@@ -72,3 +72,4 @@ incluyendo la Ley de Protección de Datos Personales y el Reglamento General de 
 2.5 Atención y Dependencias
 
 El sitio web dependerá del hosting y del proveedor de servicios de Internet para garantizar que el sitio sea accesible en todo momento. También se necesitará un equipo de desarrollo web para construir y mantener el sitio web, y un equipo de soporte técnico para resolver problemas técnicos que puedan surgir.
+
