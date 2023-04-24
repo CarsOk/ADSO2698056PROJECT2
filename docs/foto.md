@@ -1,2 +1,2 @@
 ## EVIDENCIA DE LA REUNION CON EL EMPRESARIO
-blob:https://web.whatsapp.com/cdf3c916-2657-4404-ac76-86b06b31b6c5
+WhatsApp Image 2023-04-24 at 10.09.15 AM.jpeg
