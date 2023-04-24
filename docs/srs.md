@@ -73,3 +73,20 @@ incluyendo la Ley de Protección de Datos Personales y el Reglamento General de 
 
 El sitio web dependerá del hosting y del proveedor de servicios de Internet para garantizar que el sitio sea accesible en todo momento. También se necesitará un equipo de desarrollo web para construir y mantener el sitio web, y un equipo de soporte técnico para resolver problemas técnicos que puedan surgir.
 
+#### 3. Requerimientos Especificos
+3.1 Requerimientos Funcionales
+| **Codigo** | **Nombre** | **Fecha** | **Grado Necesidad** |
+|---|---|---|
+| REQ001 | Agregar-funciones prioritarias |       | Alto |
+| **descripcion** |
+| **entradas** | **fuente** | **salida** | **destino** | **restricciones** |
+| entrada puede ser el ID del producto | base de datos de productos del sitio web | actulizacion del numero de productos en el carrito | a base de datos ed compras del sitio web | el usuario debe haber iniciado sesion para poder agregar productos al carrito |
+| **proceso** | el proceso puede incluir la validacion del ID del producto, la actualizacion del numero de productos en el carrito y la actualizacion de la base de datos de compras del sitio web.
+posibles  impactos que puede tener el requisito en otras partes del sistema , en el caso de "agregar productos al carrito", un efecto colateral puede ser que el tiempo de carga del sitio web aumente si hay muchos productos en el carrito |
+| **efecto colateral |
+
+| **Codigo** | **Nombre** | **Fecha** | **Grado necesidad** |
+| REQ002 | Gestion de pedidos |       | ALTO |
+| Descripcion | El sistema debe permitir a los usuarios realizar pedidos deproductos disponibles en el sitio web. Los usuarios
+  
+
