@@ -8,7 +8,7 @@ El propósito del sitio web es crear una plataforma en línea para que los usuar
 
 1.2 Alcance
 
-El sitio web será accesible a través de Internet y estará disponible para usuarios de todo el mundo. El contenido del sitio web se actualizará regularmente y se asegurará de que los usuarios puedan interactuar con la plataforma.
+El sitio web será accesible a través de Internet. El contenido del sitio web se actualizará regularmente y se asegurará de que los usuarios puedan interactuar con la plataforma.
 
 1.3 Definiciones, Acrónimos, y Abreviaturas
 
@@ -61,7 +61,7 @@ El sitio web tendrá las siguientes funciones:
 
 2.3 Características de Usuario
 
-El sitio web estará dirigido a usuarios de todas las edades y niveles de habilidad informática. Se tendrá en cuenta la accesibilidad para usuarios con discapacidades visuales y auditivas.
+El sitio web estará dirigido a usuarios de todas las edades y niveles de habilidad informática. logrando asi una accesibilidad facil para cualquier usuario.
 
 2.4 Restricciones
 
@@ -244,4 +244,4 @@ Este requisito implica la incorporación de una función de búsqueda en el siti
 
 4.6 Presupuesto
 
-El presupuesto estimado para la creación del sitio web es de € 65.841.300, incluyendo el diseño, la programación, el alojamiento web y la configuración del servidor. El presupuesto también incluye la compra de hardware necesario, como el escáner lector de códigos de barras y el router inalámbrico. Se estima que el tiempo de desarrollo del sitio web sea de aproximadamente 3 meses y se requerirá la contratación de un equipo de programadores, diseñadores y especialistas en marketing digital para llevar a cabo el proyecto. Además, se prevé un coste adicional para el mantenimiento y actualización del sitio web una vez que esté en funcionamiento. El proveedor de hosting aún está por determinar y se seleccionará en función de las necesidades específicas del sitio web.
+El presupuesto estimado para la creación del sitio web es de 65.841.300 de pesos, incluyendo el diseño, la programación, el alojamiento web y la configuración del servidor. El presupuesto también incluye la compra de hardware necesario, como el escáner lector de códigos de barras y el router inalámbrico. Se estima que el tiempo de desarrollo del sitio web sea de aproximadamente 27 meses.
