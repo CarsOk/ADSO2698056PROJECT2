@@ -4,11 +4,16 @@
 
 1.1 Propósito
 
-El propósito del sitio web es crear una plataforma en línea para que los usuarios puedan acceder a información, servicios y productos relacionados con el tema específico del sitio web.
+El propósito del sitio web es crear una plataforma en línea para que los usuarios puedan acceder a información, servicios y productos del sitio web, describir lo acordado con el cliente y desarrollar el paso a paso para el software que servirá para ampliar el rango de venta de la farmacia, publicitar sus productos y generar mayores ganancias, generando un control y registro de las ventas.
 
 1.2 Alcance
 
-El sitio web será accesible a través de Internet. El contenido del sitio web se actualizará regularmente y se asegurará de que los usuarios puedan interactuar con la plataforma.
+El sistema será un sitio ventas web accesible a través de internet. El cual brindara una interfaz de usuarios y productos para que los usuarios puedan interactuar. Este sistema aportara en:
+•	Registro e inicio de usuarios
+•	Administración de los productos disponibles del inventario
+•	Generar factura electrónica 
+•	Selección de productos y compra de los mismos 
+
 
 1.3 Definiciones, Acrónimos, y Abreviaturas
 
@@ -45,7 +50,7 @@ El sitio web se desarrollará con el objetivo de proporcionar una experiencia de
 
 2.1 Perspectivas del Producto
 
-El sitio web se diseñará para ser compatible con una amplia variedad de dispositivos, incluyendo computadoras de escritorio, portátiles, tabletas y teléfonos inteligentes. Se utilizará un diseño receptivo para garantizar que el contenido se adapte automáticamente al tamaño de pantalla del dispositivo del usuario.
+Con este proyecto se espera una mejora en las ventas de la farmacia, dicho sistema brindara facilidad al usuario en la compra de productos y obtención de la información de estos mismos. Ya que muchos negocios cuentan con sitios web que los promocionan, esta farmacia tendrá el suyo también.
 
 2.2 Funciones del Producto
 
@@ -58,16 +63,17 @@ El sitio web tendrá las siguientes funciones:
 ·Página de inicio de sesión para usuarios registrados
 ·Carrito de compras y página de pago para compras en línea
 ·Blog y sección de noticias para publicar contenido actualizado y relevan
+.Generar factura electrónica de las compras que se realicen 
+.Editar la cantidad y elección de los productos que estén en el carrito de compra 
 
 2.3 Características de Usuario
 
-El sitio web estará dirigido a usuarios de todas las edades y niveles de habilidad informática. logrando asi una accesibilidad facil para cualquier usuario.
+Los usuarios que interactuaran con este sitio web serán las personas encargadas de la administración de dicho sitio, las personas que realizaran las compras, el administrador que velara del buen funcionamiento del sitio web.
+
 
 2.4 Restricciones
 
-Se deben seguir las regulaciones de privacidad y seguridad de la información en línea,
-
-incluyendo la Ley de Protección de Datos Personales y el Reglamento General de Protección de Datos.
+Para este sistema las posibles restricciones son, el tiempo que tomara el desarrollo de este, recursos donde se implementara el sistema y el nivel de programación de los desarrolladores 
 
 2.5 Atención y Dependencias
 
