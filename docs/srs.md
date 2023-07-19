@@ -83,127 +83,106 @@ El sitio web dependerá del hosting y del proveedor de servicios de Internet par
         3.1 Requerimientos Funcionales.
 <br>
 <br>
+ 
+| Código | Nombre | Fecha | Grado | Necesidad |
+| -------- | --------------------- | -------------- | ------ | ------------------------------------------------------- |
+| REQ001 | Registro de usuario | Sin especificar| ALTO | |
 
 
-| Código   | Nombre                 | Fecha           | Grado |
-| -------- | ---------------------- | --------------- | ----- |
-| REQ001   | Registro de usuario    | Sin especificar | ALTO  |
+| **Descripción** | |
+| ---------------- | --------------------------------------------------------------------------------------- |
+| | El sistema debe permitir que los usuarios se registren en la plataforma proporcionando su información personal. |
+| | |
+| | **REQ001.1-CREACION DE CUENTA:** El sistema debe permitir a los visitantes registrarse como usuarios de la farmacia online. El usuario debe digitar sus datos personales como: ID, nombre, apellido, correo electrónico, contraseña, dirección y número de contacto. |
+| | |
+| | **REQ001.2-VEREFICACION DE CORREO ELECTRONICO:** Después de que el usuario ha registrado sus datos personales, el sistema debe enviar un correo de verificación para confirmar el correo electrónico dado por el usuario. |
+| | |
+| | **REQ001.3-INICIO DE SESION:** El sistema debe permitir a los usuarios registrados iniciar sesión en la plataforma utilizando su ID y contraseña. |
+| | |
+| | **REQ001.4-PERFIL DE USUARIO:** Los usuarios deben tener acceso a un perfil de usuario para que puedan editar su información personal, como dirección, número de contacto u otros datos de información. |
 
-|  **Descripcion**                                                                            |
-| ---------------------------------------------------------------------------------------- |
-| El sistema debe permitir que los usuarios se registren en la plataforma proporcionando su información personal. |
+| **Entradas** | **Fuente** | **Salida** | **Destino** | **Restricciones** |
+| ------------------------------------ | ---------- | --------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Identificación, Contraseña del usuario | Usuario | Confirmación de registro | Interfaz de usuario | Validación de correo (Si el usuario no confirma la verificación del correo electrónico, no podrá registrarse) |
 
-| **REQ001.1-CREACION DE CUENTA**                                                             |
-| ------------------------------------------------------------------------------------------- |
-| El sistema debe permitir a los visitantes registrarse como usuarios de la farmacia online. El usuario debe digitar sus datos personales como: ID, nombre, apellido, correo electrónico, contraseña, dirección y número de contacto. |
-
-| **REQ001.2-VERIFICACION DE CORREO ELECTRONICO**                                                |
-| ----------------------------------------------------------------------------------------------- |
-| Después de que el usuario ha registrado sus datos personales, el sistema debe enviar un correo de verificación para confirmar el correo electrónico proporcionado por el usuario. |
-
-| **REQ001.3-INICIO DE SESION**                                                     |
-| ---------------------------------------------------------------------------------- |
-| El sistema debe permitir a los usuarios registrados iniciar sesión en la plataforma utilizando su ID y contraseña. |
-
-| **REQ001.4-PERFIL DE USUARIO**                                                         |
-| --------------------------------------------------------------------------------------- |
-| Los usuarios deben tener acceso a un perfil de usuario para que puedan editar su información personal, como dirección, número de contacto u otros datos de información. |
-
-| **Entradas**          | **Fuente** | **Salida**                   | **Destino**       | **Restricciones**                                                                                                              |
-| -------------------- | ---------- | ---------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Identificación, Contraseña del usuario | Usuario    | Confirmación de registro      | Interfaz de usuario | Validación de correo (Si el usuario no confirma la verificación del correo electrónico, no podrá registrarse) |
-
-| **Proceso**                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Proceso** |
+| --------------------------------------------------------------------------------------------------------------- |
 | El usuario debe acceder a la página de registro de la plataforma, digitar sus datos personales, proporcionar una contraseña y confirmar el correo de verificación. Los datos del usuario se almacenan en la base de datos de la farmacia y se confirma su registro. |
 
-| **Efecto Colateral**                                                                                                                                       |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Efecto Colateral** |
+| --------------------------------------------------------------------------------------------------------------- |
 | Algunos usuarios pueden tener preocupaciones legítimas sobre la seguridad de sus datos y pueden ser reacios a proporcionar su información personal en línea. Esto puede conducir a una menor confianza en la farmacia en línea y a una menor participación de los usuarios o tasas de registro. |
 <br>
 <br>
 
+####
 
-| Código   | Nombre                 | Fecha           | Grado |
-| -------- | ---------------------- | --------------- | ----- |
-| REQ002   | Carrito de compras     | Sin especificar | ALTO  |
+| Código   | Nombre                | Fecha          | Grado  | Necesidad                                               |
+| -------- | --------------------- | -------------- | ------ | ------------------------------------------------------- |
+| REQ002   | Carrito de compras    | Sin especificar| ALTO   |                                                         |
 
-|  **Descripcion**                                                                            |
-| ---------------------------------------------------------------------------------------- |
-| El sistema deberá permitir al usuario la búsqueda de productos, seleccionar la cantidad de productos que desea, ver la descripción del producto, precio y disponibilidad. |
+| **Descripción**  |                                                                                         |
+| ---------------- | --------------------------------------------------------------------------------------- |
+|                  | El sistema deberá de permitir al usuario la búsqueda de productos, deben poder seleccionar la cantidad de productos que desea, ver la descripción del producto, precio y disponibilidad. |
+|                  |                                                                                           |
+|                  | **REQ002.1-AGREGAR PRODUCTOS AL CARRITO:** El usuario debe poder agregar productos al carrito. El sistema deberá permitir la actualización de la cantidad de los productos. |
+|                  |                                                                                           |
+|                  | **REQ002.2-DISPONIBILIDAD DEL PRODUCTO:** El sistema deberá verificar si el producto se encuentra disponible para la compra antes de ser agregado al carrito. Si el producto no se encuentra disponible, el sistema deberá informar al usuario. |
+|                  |                                                                                           |
+|                  | **REQ002.3-GESTION DEL CARRITO:** El usuario podrá ver el contenido actual del carrito de compras. El sistema deberá mostrar la lista de los productos, la cantidad, el precio unitario más el subtotal. El usuario debe poder modificar la cantidad del producto o eliminar el producto. |
 
-| **REQ002.1-AGREGAR PRODUCTOS AL CARRITO**                                                             |
-| ------------------------------------------------------------------------------------------- |
-| El usuario debe poder agregar productos al carrito. El sistema deberá permitir la actualización de la cantidad de los productos. |
+| **Entradas**                          | **Fuente** | **Salida**                  | **Destino**          | **Restricciones**                                                                                                              |
+| ------------------------------------ | ---------- | --------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| El ID del producto                     | Base de datos de los productos | Resumen del carrito de compras   | Base de datos de compras | El usuario debe haber iniciado sesión para poder agregar productos al carrito. Disponibilidad de los productos. |
 
-| **REQ002.2-DISPONIBILIDAD DEL PRODUCTO**                                                |
-| ----------------------------------------------------------------------------------------------- |
-| El sistema deberá verificar si el producto se encuentra disponible para la compra antes de ser agregado al carrito. Si el producto no se encuentra disponible, el sistema deberá informar al usuario. |
-
-| **REQ002.3-GESTION DEL CARRITO**                                                     |
-| ---------------------------------------------------------------------------------- |
-| El usuario podrá ver el contenido actual del carrito de compras. El sistema deberá mostrar la lista de los productos, la cantidad, el precio unitario y el subtotal. El usuario debe poder modificar la cantidad del producto o eliminar el producto. |
-
-| **Entradas**          | **Fuente** | **Salida**                   | **Destino**       | **Restricciones**                                                                                                              |
-| -------------------- | ---------- | ---------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| El ID del producto   | Base de datos de los productos | Resumen del carrito de compras | Base de datos de compras | El usuario debe haber iniciado sesión para poder agregar productos al carrito. Disponibilidad de los productos. |
-
-| **Proceso**                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Proceso**                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------- |
 | Navegación y selección de productos. |
 
-| **Efecto Colateral**                                                                                                                                       |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Efecto Colateral**                                                                                            |
+| --------------------------------------------------------------------------------------------------------------- |
 | El tiempo de carga del sitio web puede aumentar si hay muchos productos en el carrito. |
+
+<br>
+<br> 
+
+####
+
+ | Código   | Nombre                | Fecha          | Grado  | Necesidad                                               |
+| -------- | --------------------- | -------------- | ------ | ------------------------------------------------------- |
+| REQ003   | Búsqueda de productos | Sin especificar| ALTO   |                                                         |
+
+| **Descripción**  |                                                                                         |
+| ---------------- | --------------------------------------------------------------------------------------- |
+|                  | El sistema debe permitir a los usuarios la capacidad de buscar productos farmacéuticos ya sea por el nombre del producto o la categoría. |
+|                  |                                                                                           |
+|                  | **REQ003.1-BUSQUEDA POR NOMBRE DE PRODUCTO:** El usuario debe poder buscar el producto que desea ingresando el nombre del producto y el sistema debe poder devolver resultados relevantes. |
+|                  |                                                                                           |
+|                  | **REQ003.2-BUSQUEDA POR CATEGORIAS:** El sistema le debe permitir al usuario buscar productos por categorías como: salud y medicamentos, cuidado y aseo personal, maquillaje, maternidad y bebes, ofertas. |
+|                  |                                                                                           |
+|                  | **REQ003.3-VISTA PREVIA DE PRODUCTOS:** Los usuarios deben poder ver la vista previa de los productos en los resultados de búsqueda junto a la información, marca y precio del producto. |
+|                  |                                                                                           |
+|                  | **REQ003.4-SUGERENCIA DE BÚSQUEDA:** El sistema debe mostrar sugerencias de búsqueda cuando el usuario escribe basándose en términos relacionados y popularidad. |
+|                  |                                                                                           |
+|                  | **REQ003.5-HISTORIAL DE BÚSQUEDA:** El usuario puede tener acceso al historial de búsqueda de los productos que anteriormente ha buscado. |
+|                  |                                                                                           |
+|                  | **REQ003.6-INTEGRACION DEL CARRITO DE COMPRAS:** Los usuarios deben poder agregar los productos directamente desde los resultados de la búsqueda al carrito de compras. |
+
+| **Entradas**                          | **Fuente** | **Salida**                  | **Destino**          | **Restricciones**                                                                                                              |
+| ------------------------------------ | ---------- | --------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Palabras claves o categorías         | Base de datos de productos | Lista de resultados de búsqueda con productos relevantes   | Usuario final | Capacidad del sistema para mostrar resultados de manera eficiente. Disponibilidad del producto. |
+
+| **Proceso**                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------- |
+| El usuario digita palabras claves o elige una categoría de productos, y el sistema le muestra resultados relevantes a su búsqueda, mostrando una vista previa de los productos que coinciden con su búsqueda. El usuario puede agregar el producto buscado a su carrito de compras. |
+
+| **Efecto Colateral**                                                                                            |
+| --------------------------------------------------------------------------------------------------------------- |
+| Puede haber sobrecarga del servidor en momentos de alta demanda y mostrar resultados irrelevantes o productos agotados si no se actualiza debidamente el inventario. |
 <br>
 <br>
 
-
-| Código   | Nombre                 | Fecha           | Grado |
-| -------- | ---------------------- | --------------- | ----- |
-| REQ003   | Búsqueda de productos  | Sin especificar | ALTO  |
-
-| **Descripcion**                                                                            |
-| ---------------------------------------------------------------------------------------- |
-| El sistema debe permitir a los usuarios la capacidad de buscar productos farmacéuticos ya sea por el nombre del producto o la categoría. |
-
-| **REQ003.1-BUSQUEDA POR NOMBRE DE PRODUCTO**                                                             |
-| ------------------------------------------------------------------------------------------- |
-| El usuario debe poder buscar el producto que desea ingresando el nombre del producto y el sistema debe ser capaz de devolver resultados relevantes. |
-
-| **REQ003.2-BUSQUEDA POR CATEGORIAS**                                                |
-| ----------------------------------------------------------------------------------------------- |
-| El sistema debe permitir al usuario buscar productos por categorías como: salud y medicamentos, cuidado y aseo personal, maquillaje, maternidad y bebés, ofertas. |
-
-| **REQ003.3-VISTA PREVIA DE PRODUCTOS**                                                     |
-| ---------------------------------------------------------------------------------- |
-| Los usuarios deben poder ver una vista previa de los productos en los resultados de búsqueda, junto con la información, marca y precio del producto. |
-
-| **REQ003.4-SUGERENCIA DE BÚSQUEDA**                                                         |
-| --------------------------------------------------------------------------------------- |
-| El sistema debe mostrar sugerencias de búsqueda al usuario, basadas en términos relacionados y popularidad, cuando este está escribiendo. |
-
-| **REQ003.5-HISTORIAL DE BÚSQUEDA**                                                                       |
-| ------------------------------------------------------------------------------------------------------ |
-| El usuario debe tener acceso al historial de búsqueda de los productos que ha buscado anteriormente. |
-
-| **REQ003.6-INTEGRACION DEL CARRITO DE COMPRAS**                                                         |
-| --------------------------------------------------------------------------------------------------- |
-| Los usuarios deben poder agregar productos directamente desde los resultados de búsqueda al carrito de compras. |
-
-| **Entradas**          | **Fuente** | **Salida**                   | **Destino**       | **Restricciones**                                                                                                              |
-| -------------------- | ---------- | ---------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Palabras claves o categorías | Base de datos de productos    | La lista de resultados de búsqueda con productos relevantes | Usuario final | La capacidad del sistema para mostrar resultados de manera eficiente. Disponibilidad del producto. |
-
-| **Proceso**                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| El usuario digita palabras clave o elige una categoría de productos, y el sistema muestra los resultados relevantes a su búsqueda, incluyendo una vista previa de los productos que coinciden. El usuario puede agregar los productos buscados a su carrito. |
-
-| **Efecto Colateral**                                                                                                                                       |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Puede haber sobrecarga del servidor en momentos de alta demanda, o mostrar resultados irrelevantes o productos agotados si no se actualiza debidamente el inventario. |
-<br>
-<br>
+####
 
 | Código | Nombre                | Fecha      | Grado Necesidad |
 |--------|-----------------------|------------|----------------|
@@ -224,65 +203,60 @@ El sitio web dependerá del hosting y del proveedor de servicios de Internet par
 <br>
 <br>
 
+####
 
-| Código   | Nombre                 | Fecha           | Grado |
-| -------- | ---------------------- | --------------- | ----- |
-| REQ005   | Sistema de entrega     | Sin especificar | ALTO  |
+| Código   | Nombre                | Fecha          | Grado  | Necesidad                                               |
+| -------- | --------------------- | -------------- | ------ | ------------------------------------------------------- |
+| REQ005   | Sistema de entrega    | Sin especificar| ALTO   |                                                         |
 
-| **Descripcion**                                                                            |
-| ---------------------------------------------------------------------------------------- |
-| Este sistema debe facilitar el servicio de entrega del producto al usuario que lo compró. |
+| **Descripción**  |                                                                                         |
+| ---------------- | --------------------------------------------------------------------------------------- |
+|                  | Este sistema debe facilitar el servicio de entrega del producto al usuario que lo compró. |
+|                  |                                                                                           |
+|                  | **REQ004.1-SERVICIO DE MENSAJERÍA:** El sistema debe integrarse con servicios de mensajería para facilitar la entrega de los pedidos. |
+|                  |                                                                                           |
+|                  | **REQ004.2-CÁLCULO DE COSTOS DE ENVÍO:** El sistema debe calcular automáticamente los costos de envío para cada pedido. |
 
-| **REQ004.1- SERVICIO DE MENSAJERÍA**                                                             |
-| ------------------------------------------------------------------------------------------- |
-| El sistema debe integrarse con servicios de mensajería para facilitar la entrega de los pedidos. |
+| **Entradas**                          | **Fuente** | **Salida**                  | **Destino**          | **Restricciones**                                                                                                              |
+| ------------------------------------ | ---------- | --------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Pedido del cliente                   | Servicio de mensajería | Confirmación de pedidos   | Ubicación dada por el usuario | Regulaciones de envío. Disponibilidad de productos. |
 
-| **REQ004.2-CÁLCULO DE COSTOS DE ENVÍO**                                                |
-| ----------------------------------------------------------------------------------------------- |
-| El sistema debe calcular automáticamente los costos de envío para cada pedido. |
-
-| **Entradas**          | **Fuente** | **Salida**                   | **Destino**       | **Restricciones**                                                                                                              |
-| -------------------- | ---------- | ---------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Pedido del cliente   | Servicio de mensajería    | Confirmación de pedidos | Ubicación dada por el usuario | Regulaciones de envío. Disponibilidad de productos. |
-
-| **Descripcion**                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Proceso**                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------- |
 | Al momento de ser entregado el producto al domiciliario, se debe verificar que el producto sea actualizado y marcado en la base de datos de la farmacia. |
 
-| **Efecto Colateral**                                                                                                                                       |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Efecto Colateral**                                                                                            |
+| --------------------------------------------------------------------------------------------------------------- |
 | Puede haber retraso al momento de recibir muchos pedidos al mismo tiempo. |
 <br>
 <br>
 
+####
 
-| Código   | Nombre                 | Fecha           | Grado |
-| -------- | ---------------------- | --------------- | ----- |
-| REQ006   | Consultas y asesoramiento | Sin especificar | ALTO  |
+| Código   | Nombre                             | Fecha          | Grado  | Necesidad                                               |
+| -------- | ---------------------------------- | -------------- | ------ | ------------------------------------------------------- |
+| REQ006   | Consultas y asesoramiento         | Sin especificar| ALTO   |                                                         |
 
-| **Descripcion**                                                                            |
-| ---------------------------------------------------------------------------------------- |
-| Brindar a los usuarios la opción de realizar consultas o solicitar asesoramiento farmacéutico en línea a través de un sistema de chat en vivo o correo electrónico. |
+| **Descripción**  |                                                                                         |
+| ---------------- | --------------------------------------------------------------------------------------- |
+|                  | Brindar a los usuarios la opción de realizar consultas o solicitar asesoramiento farmacéutico en línea a través de un sistema de chat en vivo o correo electrónico. |
+|                  |                                                                                           |
+|                  | **REQ005.1-CONSULTA EN LÍNEA:** El usuario podrá realizar consultas en línea sobre medicamentos, efectos secundarios, dosis recomendadas, productos, etc. |
+|                  |                                                                                           |
+|                  | **REQ005.2-ASESORAMIENTO FARMACEUTICO:** El usuario recibirá asesoramiento personalizado por el farmacéutico autorizado. El asesoramiento se realizará por medio de un chat en línea o llamada telefónica. |
 
-| **REQ005.1-CONSULTA EN LÍNEA**                                                             |
-| ------------------------------------------------------------------------------------------- |
-| El usuario podrá realizar consultas en línea sobre medicamentos, efectos secundarios, dosis recomendadas, productos, etc. |
+| **Entradas**                          | **Fuente**                          | **Salida**                  | **Destino**          | **Restricciones**                                                                                                              |
+| ------------------------------------ | ----------------------------------- | --------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Consultas de usuario                 | Conocimiento y experiencia del equipo farmacéutico | Respuestas y asesoramiento   | Usuario final       | Limitaciones de responsabilidad. |
 
-| **REQ005.2-ASESORAMIENTO FARMACEUTICO**                                                |
-| ----------------------------------------------------------------------------------------------- |
-| El usuario recibirá asesoramiento personalizado por parte del farmacéutico autorizado, a través de un chat en línea o llamada telefónica. |
+| **Proceso**                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------- |
+| El usuario realiza la consulta por uno de los medios de asesoramiento disponibles. El farmacéutico autorizado realiza el análisis y evaluación de la consulta y envía la respuesta y asesoramiento al cliente. |
 
-| **Entradas**          | **Fuente** | **Salida**                   | **Destino**       | **Restricciones**                                                                                                              |
-| -------------------- | ---------- | ---------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Consultas de usuario | Conocimiento y experiencia del equipo farmacéutico    | Respuestas y asesoramiento al usuario | Usuario final | Limitaciones de responsabilidad |
+| **Efecto Colateral**                                                                                            |
+| --------------------------------------------------------------------------------------------------------------- |
+| Posibles retrasos en las respuestas. |
 
-| **Proceso**                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| El usuario realiza la consulta por uno de los medios de asesoramiento disponibles (chat en línea o correo electrónico), y el farmacéutico autorizado realiza el análisis y evaluación de la consulta. Luego, envía la respuesta y el asesoramiento al cliente. |
-
-| **Efecto Colateral**                                                                                                                                       |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Pueden existir posibles retrasos en las respuestas debido a la carga de trabajo o a la necesidad de investigar y brindar información precisa al usuario. |
 
 ##### Especificación de Requerimientos
         3.2 Requerimientos No Funcionales
