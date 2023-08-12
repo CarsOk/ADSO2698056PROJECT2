@@ -138,11 +138,9 @@ Administrador: se asegura del correcto funcionamiento y gestión de la plataform
 | |   |
 |---|---|
 | Descripcion: | El sistema deberá de permitir al usuario la búsqueda de productos, deben poder seleccionar la cantidad de productos que desea, ver la descripción del producto, precio y disponibilidad 
-| |REQ004.1-AGREGAR PRODUCTOS AL CARRITO: el usuario debe poder agregar                productos al carrito.El sistema deberá permitir la actualización de la cantidad de los productos. 
+| |REQ004.1-AGREGAR PRODUCTOS AL CARRITO: el usuario debe poder agregar       productos al carrito.El sistema deberá permitir la actualización de la cantidad de los productos. 
 | |REQ004.2-DISPONIBILIDAD DEL PRODUCTO: el sistema deberá verificar si el producto se encuentra disponible para la compra antes de ser agregado al carrito. Si el producto no se encuentra disponible el sistema deberá informar al usuario.
-| |REQ004.3-GETION DEL CARRITO: el usuario podrá ver el contenido actual de carrito de compras.
-El sistema deberá mostrar la lista de los productos, la cantidad, el precio unitario más el subtotal.  
-El usuario debe poder modificar la cantidad del producto o eliminar el producto. 
+| |REQ004.3-GETION DEL CARRITO: el usuario podrá ver el contenido actual de carrito de compras.El sistema deberá mostrar la lista de los productos, la cantidad, el precio unitario más el subtotal, El usuario debe poder modificar la cantidad del producto o eliminar el producto. 
 
  
 
@@ -233,7 +231,21 @@ El usuario debe poder modificar la cantidad del producto o eliminar el producto.
 | Descripcion: | El sistema debe estar disponible para el usuario en todo momento, minimizando el tiempo de inactividad no planificado.
 
 
+| Código |	Nombre |	Fecha	| Grado Necesidad
+|---|----|----|----|
+| RFN-005	| Privacidad y protección de datos  | Sin especificar| ALTO |
 
+| |   |
+|---|---|
+| Descripcion: |  establecerse políticas claras de privacidad y protección de datos para proteger la información personal del usuario.
+
+| Código |	Nombre |	Fecha	| Grado Necesidad
+|---|----|----|----|
+| RNF-006	| mantenibilidad | Sin especificar| ALTO |
+
+| |   |
+|---|---|
+| Descripcion: | El sistema debe ser fácil de mantener y actualizar para agregar nuevas funcionalidades o corregir errores.
 
 
 
