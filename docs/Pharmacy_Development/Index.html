@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo">Drogueria Online</div>
+    <ul class="nav-links">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Productos</a></li>
+      <li><a href="#">PQR</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+    <div class="cart">
+      <img src="cart-icon.png" alt="Carrito">
+      <span class="cart-count">0</span>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="welcome">
+    <h1>Bienvenido a Droguerias Yasbel</h1>
+    <p>Descubre nuestros productos de alta calidad para tu salud y bienestar.</p>
+  </section>
+  <section class="products">
+    <article class="product">
+      <img src="producto1.jpg" alt="Producto 1">
+      <h2>Vitamina C</h2>
+      <p>Precio: $4.000</p>
+      <button class="add-to-cart">Añadir al carrito</button>
+    </article>
+    <article class="product">
+      <img src="producto2.jpg" alt="Producto 2">
+      <h2>Centrum</h2>
+      <p>Precio: $25.499</p>
+      <button class="add-to-cart">Añadir al carrito</button>
+    </article>
+    <article class="product">
+      <img src="producto3.jpg" alt="Producto 3">
+      <h2>Vitamina-E</h2>
+      <p>Precio: $17.999</p>
+      <button class="add-to-cart">Añadir al carrito</button>
+    </article>
+    <article class="product">
+      <img src="producto4.jpg" alt="Producto 4">
+      <h2>Protector Solar</h2>
+      <p>Precio: $32.500</p>
+      <button class="add-to-cart">Añadir al carrito</button>
+    </article>
+    <article class="product">
+      <img src="producto5.jpg" alt="Producto 5">
+      <h2>Jarabe para la Tos</h2>
+      <p>Precio: $9.990</p>
+      <button class="add-to-cart">Añadir al carrito</button>
+    </article>
+    <article class="product">
+      <img src="producto6.jpg" alt="Producto 6">
+      <h2>Suplemento Omega-3</h2>
+      <p>Precio: $18.995</p>
+      <button class="add-to-cart">Añadir al carrito</button>
+    </article>
+    <article class="product">
+      <img src="producto7.jpg" alt="Producto 7">
+      <h2>Crema Hidratante</h2>
+      <p>Precio: $40.450</p>
+      <button class="add-to-cart">Añadir al carrito</button>
+    </article>
+  </section>
+  <section class="pqr">
+    <h2>Preguntas, Quejas y Reclamos</h2>
+    <form>
+      <label for="pqr-type">Tipo de consulta:</label>
+      <select id="pqr-type" name="pqr-type">
+        <option value="pregunta">Pregunta</option>
+        <option value="queja">Queja</option>
+        <option value="reclamo">Reclamo</option>
+      </select>
+      <textarea id="pqr-message" name="pqr-message" rows="4" placeholder="Escribe aquí tu mensaje"></textarea>
+      <button class="submit-pqr">Enviar</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <p>  Drogueria Online</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
