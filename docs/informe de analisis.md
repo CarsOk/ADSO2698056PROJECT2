@@ -94,77 +94,63 @@ Administrador: se asegura del correcto funcionamiento y gestión de la plataform
 
 
 
-| Código |	Nombre |	Fecha	| Grado Necesidad
+| Código |	Nombre |	Fecha	| Grado Necesidad |
 |---|----|----|----|
 | REQ001	| gestión de usuario| Sin especificar| ALTO |
-
-| |   |
 |---|---|
-|  Descripcion:   | El sistema debe permitir que los usuarios se registren en la plataforma proporcionando su información personal.
-| |REQ001.1-CREACION DE CUENTA: el sistema debe permitir a los visitantes registrarse como usuarios de la farmacia online. El usuario debe digitar sus datos personales como: ID, nombre, apellido, correo electrónico, contraseña, dirección y número de contacto.
-| |REQ001.2-VEREFICACION DE CORREO ELECTRONICO: después de que el usuario a registrado sus datos personales el sistema debe enviar un correo de verificación para confirmar el correo electrónico dado por el usuario.
-| | REQ0001.3-INICIO DE SESION: el sistema debe permitir a los usuarios registrados iniciar sesión en la plataforma utilizando su ID y contraseña.
-| |REQ001.4-PERFIL DE USUARIO: los usuarios deben tener acceso a un perfil de usuario para que puedan editar su información personal como dirección, número de contacto u otros datos de información.
+|  Descripcion:   | El sistema debe permitir que los usuarios se registren en la plataforma proporcionando su información personal. |
+| REQ001. 1-CREACION DE CUENTA: el sistema debe permitir a los visitantes registrarse como usuarios de la farmacia online. El usuario debe digitar sus datos personales como: ID, nombre, apellido, correo electrónico, contraseña, dirección y número de contacto. |
+| REQ001. 2-VEREFICACION DE CORREO ELECTRONICO: después de que el usuario a registrado sus datos personales el sistema debe enviar un correo de verificación para confirmar el correo electrónico dado por el usuario. |
+| REQ0001. 3-INICIO DE SESION: el sistema debe permitir a los usuarios registrados iniciar sesión en la plataforma utilizando su ID y contraseña. |
+| REQ001. 4-PERFIL DE USUARIO: los usuarios deben tener acceso a un perfil de usuario para que puedan editar su información personal como dirección, número de contacto u otros datos de información.|
 
 
 | Código |	Nombre |	Fecha	| Grado Necesidad
 |---|----|----|----|
 | REQ002	| Inicio de sesión. | Sin especificar| ALTO |
-
-| |   |
 |---|---|
 | Descripcion: | REQ002.1- INICIO DE SESION: el sistema debe permitir a los usuarios registrados iniciar sesión en la plataforma utilizando su ID y contraseña.
-| | REQ002.2- RETABLECIMIENTO DE CONTRASEÑA:  El sistema debe permitir al usuario el restablecimiento de su contraseña en caso de olvidarla,  mediante un link de restablecimiento enviado a su correo electrónico.
+| REQ002.2- RETABLECIMIENTO DE CONTRASEÑA:  El sistema debe permitir al usuario el restablecimiento de su contraseña en caso de olvidarla,  mediante un link de restablecimiento enviado a su correo electrónico. |
 
-| Código |	Nombre |	Fecha	| Grado Necesidad
+| Código |	Nombre |	Fecha	| Grado Necesidad |
 |---|----|----|----|
 | REQ003	| Búsqueda de productos  | Sin especificar| ALTO |
-
-| |   |
 |---|---|
 | Descripcion: |  El sistema debe permitir a los usuarios la capacidad de buscar productos farmacéuticos ya sea por el nombre del producto o la categoría.
-| |REQ003.1-BUSQUEDA POR NOMBRE DE PRODUCTO: El usuario de poder buscar el producto que desea ingresando el nombre del producto y el sistema debe poder de volver resultados relevantes.
-| |REQ003.2-BUSQUEDA POR CATEGORIAS: El sistema le debe permitir al usuario poder buscar productos por categorías como: salud y medicamentos, cuidado y aseo personal, maquillaje, maternidad y bebes, ofertas.
-| |REQ003.3-VISTA PEREVIA DE PRIDUCTOS: los usuarios deben poder ver la vista previa de los productos en los resultados de búsqueda junto a la información, marca y precio del producto.
-| |REQ003.4-SUGERENCIA DE BÚSQUEDA: El sistema debe mostrar sugerencias de búsqueda, cuando el usuario escribe basándose en términos relacionados y popularidad.
-| |REQ003.5-HISTORIAL DE BÚSQUEDA: El usuario puede tener acceso al historial de búsqueda de los productos que anteriormente ha buscado.
-| |REQ003.6-INTEGRACION DEL CARRITO DE COMPRAS: los usuarios deben poner agregar los productos directamente desde el resultado de la búsqueda al carrito de compras. 
+| REQ003.1-BUSQUEDA POR NOMBRE DE PRODUCTO: El usuario de poder buscar el producto que desea ingresando el nombre del producto y el sistema debe poder de volver resultados relevantes.
+| REQ003.2-BUSQUEDA POR CATEGORIAS: El sistema le debe permitir al usuario poder buscar productos por categorías como: salud y medicamentos, cuidado y aseo personal, maquillaje, maternidad y bebes, ofertas. |
+| REQ003.3-VISTA PEREVIA DE PRIDUCTOS: los usuarios deben poder ver la vista previa de los productos en los resultados de búsqueda junto a la información, marca y precio del producto. |
+|  REQ003.4-SUGERENCIA DE BÚSQUEDA: El sistema debe mostrar sugerencias de búsqueda, cuando el usuario escribe basándose en términos relacionados y popularidad. |
+| REQ003.5-HISTORIAL DE BÚSQUEDA: El usuario puede tener acceso al historial de búsqueda de los productos que anteriormente ha buscado. |
+| REQ003.6-INTEGRACION DEL CARRITO DE COMPRAS: los usuarios deben poner agregar los productos directamente desde el resultado de la búsqueda al carrito de compras. |
 
 
-| Código |	Nombre |	Fecha	| Grado Necesidad
+| Código |	Nombre |	Fecha	| Grado Necesidad |
 |---|----|----|----|
 | REQ004	| Carrito de compras | Sin especificar| ALTO |
-
-| |   |
 |---|---|
-| Descripcion: | El sistema deberá de permitir al usuario la búsqueda de productos, deben poder seleccionar la cantidad de productos que desea, ver la descripción del producto, precio y disponibilidad 
-| |REQ004.1-AGREGAR PRODUCTOS AL CARRITO: el usuario debe poder agregar       productos al carrito.El sistema deberá permitir la actualización de la cantidad de los productos. 
-| |REQ004.2-DISPONIBILIDAD DEL PRODUCTO: el sistema deberá verificar si el producto se encuentra disponible para la compra antes de ser agregado al carrito. Si el producto no se encuentra disponible el sistema deberá informar al usuario.
-| |REQ004.3-GETION DEL CARRITO: el usuario podrá ver el contenido actual de carrito de compras.El sistema deberá mostrar la lista de los productos, la cantidad, el precio unitario más el subtotal, El usuario debe poder modificar la cantidad del producto o eliminar el producto. 
-
+| Descripcion: | El sistema deberá de permitir al usuario la búsqueda de productos, deben poder seleccionar la cantidad de productos que desea, ver la descripción del producto, precio y disponibilidad |
+| REQ004.1-AGREGAR PRODUCTOS AL CARRITO: el usuario debe poder agregar productos al carrito.El sistema deberá permitir la actualización de la cantidad de los productos. |
+| REQ004.2-DISPONIBILIDAD DEL PRODUCTO: el sistema deberá verificar si el producto se encuentra disponible para la compra antes de ser agregado al carrito. Si el producto no se encuentra disponible el sistema deberá informar al usuario.  
+| REQ004.3-GETION DEL CARRITO: el usuario podrá ver el contenido actual de carrito de compras.El sistema deberá mostrar la lista de los productos, la cantidad, el precio unitario más el subtotal, El usuario debe poder modificar la cantidad del producto o eliminar el producto. |
  
-
-| Código |	Nombre |	Fecha	| Grado Necesidad
+| Código |	Nombre |	Fecha	| Grado Necesidad |
 |---|----|----|----|
-| REQ005	|              pago de compras en línea.  | Sin especificar| ALTO |
-
-| |   |
+| REQ005	| pago de compras en línea.  | Sin especificar| ALTO |
 |---|---|
-| Descripcion: | REQ005.1-PROCESIMIENTO DE SEGURO DE PAGO: el sistema debe garantizar que la información del usuario se maneje de forma segura y que se cumplan los estándares de seguridad 
-| |REQ005.2- INTEGRANCION DE METODOS DE PAGO: debe permitir la integración de varios métodos de pago 
-| |REQ005.3-REEMBOLSO:  debe permitir que los usuarios realicen reembolsos para las compras devueltas o canceladas.
+| Descripcion: | REQ005.1-PROCESIMIENTO DE SEGURO DE PAGO: el sistema debe garantizar que la información del usuario se maneje de forma segura y que se cumplan los estándares de seguridad. |
+| REQ005.2- INTEGRANCION DE METODOS DE PAGO: debe permitir la integración de varios métodos de pago |
+| REQ005.3-REEMBOLSO:  debe permitir que los usuarios realicen reembolsos para las compras devueltas o canceladas. |
 
 
-| Código |	Nombre |	Fecha	| Grado Necesidad
+| Código |	Nombre |	Fecha	| Grado Necesidad |
 |---|----|----|----|
 | REQ006	| Factura electronica | Sin especificar| ALTO |
-
-| |   |
 |---|---|
-| Descripcion: | REQ006.1-GENERACION AUTOMÁTICA DE FACTURA: el sistema de generar automáticamente facturas electrónicas al momento que la compra se haya realizado exitosamente
-| |REQ006.2-DETALLES DE COMPRA: la factura de electrónica deber contener detalles específicos de la compra, como el nombre del producto, precio unitario, descuentos aplicados, impuestos, descripción de la compra y el total de la compra
-| |REQ006.3-ENVIO AUTOMATICO DE LA FACTURA: El sistema debe enviar automáticamente la factura al correo del usuario 
-| |REQ006.4-HISTORIAL DE FACURACION: el sistema debe permitir que tanto el usuario como el empleado pueda acceder en cualquier momento al historial completo de las facturas generadas 
+| Descripcion: | REQ006.1-GENERACION AUTOMÁTICA DE FACTURA: el sistema de generar automáticamente facturas electrónicas al momento que la compra se haya realizado exitosamente |
+| REQ006.2-DETALLES DE COMPRA: la factura de electrónica deber contener detalles específicos de la compra, como el nombre del producto, precio unitario, descuentos aplicados, impuestos, descripción de la compra y el total de la compra |
+| REQ006.3-ENVIO AUTOMATICO DE LA FACTURA: El sistema debe enviar automáticamente la factura al correo del usuario |
+| REQ006.4-HISTORIAL DE FACURACION: el sistema debe permitir que tanto el usuario como el empleado pueda acceder en cualquier momento al historial completo de las facturas generadas |
 
 | Código |	Nombre |	Fecha	| Grado Necesidad
 |---|----|----|----|
