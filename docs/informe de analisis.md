@@ -213,43 +213,43 @@ Administrador: se asegura del correcto funcionamiento y gestión de la plataform
 ![Caso de usoPQR](diagramas\CduPQR.jpg)
 ![Caso de uso gestion de proveedores](diagramas\CduGestProveedr.jpg)
 
-| CASO DE USO    | GESTION DE USUARIO                                                                                                                                                |
-| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+|                | CASO DE USO                                                                                                                                                       | GESTION DE USUARIO |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
 | Descripcion    | Este es el sistema dedicado únicamente para el inicio de sesión del cliente, mostrando ese detalle, los pasos que se necesitan para un correcto inicio de sesión. |
 | Precondicion   | El cliente debe estar regristrado en la base de datos antes de iniciar sesión.                                                                                    |
-| Secuencion     | PASO                                                                                                                                                              | Acción |
+| Secuencion     | PASO                                                                                                                                                              | Acción             |
 | ---            | 1. El cliente ingresa el nombre y contraseña                                                                                                                      |
 | ---            | 2. El sistema valida los datos.                                                                                                                                   |
 | ---            | 3. Si los datos son incorrectos el sistema le da otra oportunidad al cliente para volver a escribir los datos.                                                    |
 | ---            | 4. Una vez validado los datos el cliente ingresa a la pagina web.                                                                                                 |
 | Post condición | Luego de iniciar sesión el cliente tiene acceso a los productos farmaceuticos de la pagina web.                                                                   |
-| Excepciones    | PASO                                                                                                                                                              | Acción |
+| Excepciones    | PASO                                                                                                                                                              | Acción             |
 | ---            | 1. Si el cliente no esta registrado o el correo electrónico ya ha sido previamente registrado por otro cliente, no se puede iniciar sesión.                       |
 
-| CASO DE USO    | GESTION DE PRODUCTOS                                                                                     |
-| -------------- | -------------------------------------------------------------------------------------------------------- | ------ |
+|                | CASO DE USO                                                                                              | GESTION DE PRODUCTOS |
+| -------------- | -------------------------------------------------------------------------------------------------------- | -------------------- |
 | Descripcion    | De esta manera el sistema puede saber que productos esta seleccionando el usuario.                       |
 | Precondicion   | El usuario busca productos.                                                                              |
-| Secuencion     | PASO                                                                                                     | Acción |
+| Secuencion     | PASO                                                                                                     | Acción               |
 | ---            | 1. El usuario oprime el buscador.                                                                        |
 | ---            | 2. Luego el usuario escribe el nombre del producto que desea buscar.                                     |
 | ---            | 3. El sistema analiza el nombre del producto y lo encuentra.                                             |
 | Post condición | Si el cliente escribio correctamente el nombre del producto el sistema lo habra encontrado exitosamente. |
-| Excepciones    | PASO                                                                                                     | Acción |
+| Excepciones    | PASO                                                                                                     | Acción               |
 | ---            | 1. Si el cliente escribió incorrectamente el nombre del producto el sistema no lo encontrara.            |
 
-| CASO DE USO    | GESTION DE CARRITO                                                                               |
-| -------------- | ------------------------------------------------------------------------------------------------ | ------ |
+|                | CASO DE USO                                                                                      | GESTION DE CARRITO |
+| -------------- | ------------------------------------------------------------------------------------------------ | ------------------ |
 | Descripcion    | De esta manera podremos identificar los productos que el cliente ha seleccionado.                |
 | Precondicion   | Que el cliente allá seleccionado los productos previamente.                                      |
-| Secuencion     | PASO                                                                                             | Acción |
+| Secuencion     | PASO                                                                                             | Acción             |
 | ---            | 1. Luego de haber buscado los productos el cliente deberá seleccionar los productos.             |
 | ---            | 2. El sistema identifica los productos y los ingresa al carrito                                  |
 | Post condición | Si el cliente seleccionó los productos el sistema ya abra ingresado los productos en el carrito. |
-| Excepciones    | PASO                                                                                             | Acción |
+| Excepciones    | PASO                                                                                             | Acción             |
 | ---            | 1. Si el cliente no selecciona los productos el sistema no los ingresa al carrito.               |
 
-| CASO DE USO    | PQR                                                                                                                      |
+|                | CASO DE USO                                                                                                              | PQR    |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------ | ------ |
 | Descripcion    | El cliente y administrador tienen una relación en el tema de consultar y asesorar.                                       |
 | Precondicion   | El administrador debe de estar preparado para cualquier consulta que haga el cliente.                                    |
@@ -260,22 +260,22 @@ Administrador: se asegura del correcto funcionamiento y gestión de la plataform
 | Excepciones    | PASO                                                                                                                     | Acción |
 | ---            | 1. Si la pregunta del cliente no es la adecuada el administrador no podrá responder.                                     |
 
-| CASO DE USO    | GESTION DE INVENTARIO                                                                                                                                          |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+|                | CASO DE USO                                                                                                                                                    | GESTION DE INVENTARIO |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
 | Descripcion    | El administrador proporciona suministros a la droguería lo cual indica un cambio en la base de datos lo cual es actualizado por el sistema.                    |
 | Precondicion   | El administrador debe hacer un cambio en la droguería para que esto suceda.                                                                                    |
-| Secuencion     | PASO                                                                                                                                                           | Acción |
+| Secuencion     | PASO                                                                                                                                                           | Acción                |
 | ---            | 1. El administrador proporciona suministros a la droguería.                                                                                                    |
 | ---            | 2. El administrador le da instrucciones al sistema para que este mismo actualice la base de datos del inventario.                                              |
 | Post condición | El sistema ya habrá actualizado la base de datos del inventario una vez el administrador le allá otorgado las indicaciones.                                    |
-| Excepciones    | PASO                                                                                                                                                           | Acción |
+| Excepciones    | PASO                                                                                                                                                           | Acción                |
 | ---            | 1. Para que el sistema actualice la base de datos el administrador debe darle las instrucciones sobre qué productos específicamente proporcionó al inventario. |
 
-| CASO DE USO    | GESTION DE PROVEEDORES                                                                                                                         |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+|                | CASO DE USO                                                                                                                                    | GESTION DE PROVEEDORES |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
 | Descripcion    | Asumir un servicio por parte del personal administrativo en el área de los suministros o mercancía de la droguería a manos de los proveedores. |
 | Precondicion   | Que se allá levado un acuerdo con el proveedor antes de interactuar con la mercancía.                                                          |
-| Secuencion     | PASO                                                                                                                                           | Acción |
+| Secuencion     | PASO                                                                                                                                           | Acción                 |
 | ---            | 1. Identificación de los bienes y servicios que se necesitan.                                                                                  |
 | ---            | 2. Creación de la solicitud de compra                                                                                                          |
 | ---            | 3. Revisión y aprobación de la solicitud de compra.                                                                                            |
@@ -286,7 +286,7 @@ Administrador: se asegura del correcto funcionamiento y gestión de la plataform
 | ---            | 8. Aprobación y pago de facturas.                                                                                                              |
 | ---            | 9. Actualización de registros contables.                                                                                                       |
 | Post condición | Si el negocio con el proveedor resultó exitoso se le podrá hacer mas pedidos a largo plazo.                                                    |
-| Excepciones    | PASO                                                                                                                                           | Acción |
+| Excepciones    | PASO                                                                                                                                           | Acción                 |
 | ---            | 1. Si no hay capital no se puede llevara cabo un trato con el proveedor.                                                                       |
 | ---            | 2. Si ya hay mercancía o productos de algo especifico no es necesario llamar un proveedor para reponerlos.                                     |
 
