@@ -200,7 +200,7 @@ Administrador: se asegura del correcto funcionamiento y gestión de la plataform
 
 ### **Modelo Entidad Relación**
 
-![Diagrama MER](diagramas\DiagramaMR.png)
+![Diagrama MER](diagramas\MER.jpg)
 
 ### **Diagramas de casos de uso**
 
