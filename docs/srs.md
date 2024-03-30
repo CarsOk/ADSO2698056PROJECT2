@@ -6,7 +6,7 @@
 
 El propósito del sitio web es crear una plataforma en línea para que los usuarios puedan acceder a información, servicios y productos del sitio web, describir lo acordado con el cliente y desarrollar el paso a paso para el software que servirá para ampliar el rango de venta de la farmacia, publicitar sus productos y generar mayores ganancias, generando un control y registro de las ventas.
 
-1.2 Alcance
+1.2 Alcance 
 
 El sistema será un sitio ventas web accesible a través de internet. El cual brindara una interfaz de usuarios y productos para que los usuarios puedan interactuar. Este sistema aportara en:
 • Registro e inicio de usuarios
